@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="POST">
+        <label for="class_code">Class Code:</label>
+        <input type="text" id="class_code" name="class_code" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
